@@ -1,0 +1,41 @@
+body {
+  /* font: normal 14px/100% "Andale Mono", AndaleMono, monospace; */
+  /* font-size: 12px; */
+  font-family: 'Roboto', sans-serif;
+  background-color: #f4f9f9;
+}
+main {
+  min-height: 80vh;
+}
+footer {
+  position: relative;
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
+  padding: 4rem 0;
+  margin-top: 2rem;
+  background-color: #393e46;
+}
+
+
+footer p {
+  color: #ccc;
+  
+}
+.topMarginNavbar {
+  margin-top: 7rem;
+  padding: 0 2rem
+}
+
+
+/* main {
+	min-height: 100vh;
+	background-image: url('https://images.pexels.com/photos/3978594/pexels-photo-3978594.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+	background-position: 77% 5%;
+	background-attachment: fixed;
+}
+.body-container {
+	color: aliceblue;
+	size: 1rem 1rem 1rem 1rem;
+} */
