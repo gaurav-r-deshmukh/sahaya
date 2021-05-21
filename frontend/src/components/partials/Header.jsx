@@ -21,15 +21,8 @@ function Header() {
 				<Container className="nav-bar" fluid>
 					{/*.nav-bar in bootstrap.min.css */}
 					<Navbar.Brand href="/">
-						<h2
-							style={{
-								fontSize: '2.5rem',
-								fontFamily: 'Satisfy, cursive',
-							}}
-						>
-							Sahaya
-						</h2>
-					</Navbar.Brand>{' '}
+						<h2>Sahaya</h2>
+					</Navbar.Brand>
 					{/* Main Page Navbar */}
 					<Navbar.Toggle aria-controls="responsive-navbar-nav" />
 					<Navbar.Collapse id="responsive-navbar-nav">
@@ -80,11 +73,11 @@ function Header() {
 									</Nav>
 
 									<Nav
-										className="navitems"
-										style={{
+										className="navitems-aboutus"
+										/*style={{
 											backgroundColor: '#266150',
 											borderRadius: '0.3rem',
-										}}
+										}} */
 									>
 										<Nav.Link>
 											<Link to="aboutus" smooth={true} duration={1000}>

@@ -9596,3 +9596,22 @@ a.text-dark:hover {
 .carousel-item img {
 	height: 590px;
 }
+
+/*Navigation bar-aboutus link*/
+.nav-bar .navitems-aboutus .nav-link {
+	background-color: #266150;
+	border-radius: 0.3rem;
+	color: white;
+}
+.nav-bar .navitems-aboutus .nav-link:hover {
+	background-color: #ffff;
+	color: black;
+	border-style: solid;
+	border: 1rem 1rem 1rem 1rem;
+}
+/*Sahaya name css*/
+.nav-bar h2 {
+	font-size: 2.5rem;
+	font-family: 'Satisfy', 'cursive';
+	text-decoration: underline;
+}
